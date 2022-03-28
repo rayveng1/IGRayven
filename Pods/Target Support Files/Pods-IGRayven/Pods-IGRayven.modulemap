@@ -1,0 +1,6 @@
+framework module Pods_IGRayven {
+  umbrella header "Pods-IGRayven-umbrella.h"
+
+  export *
+  module * { export * }
+}
