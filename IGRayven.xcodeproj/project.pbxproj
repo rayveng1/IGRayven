@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		A1A572F727EE7B2A00B3C550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A572F627EE7B2A00B3C550 /* AppDelegate.swift */; };
 		A1A572F927EE7B2A00B3C550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A572F827EE7B2A00B3C550 /* SceneDelegate.swift */; };
-		A1A572FB27EE7B2A00B3C550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A572FA27EE7B2A00B3C550 /* ViewController.swift */; };
 		A1A572FE27EE7B2A00B3C550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A572FC27EE7B2A00B3C550 /* Main.storyboard */; };
 		A1A5730027EE7B2C00B3C550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A572FF27EE7B2C00B3C550 /* Assets.xcassets */; };
 		A1A5730327EE7B2C00B3C550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A5730127EE7B2C00B3C550 /* LaunchScreen.storyboard */; };
 		A1A5730E27EE7B2C00B3C550 /* IGRayvenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5730D27EE7B2C00B3C550 /* IGRayvenTests.swift */; };
 		A1A5731827EE7B2C00B3C550 /* IGRayvenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5731727EE7B2C00B3C550 /* IGRayvenUITests.swift */; };
 		A1A5731A27EE7B2C00B3C550 /* IGRayvenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5731927EE7B2C00B3C550 /* IGRayvenUITestsLaunchTests.swift */; };
+		A1A5732727EE7C6300B3C550 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5732627EE7C6300B3C550 /* LoginViewController.swift */; };
+		A1A5732927EE7C6F00B3C550 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5732827EE7C6F00B3C550 /* FeedViewController.swift */; };
+		A1A5732B27EEEEEA00B3C550 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5732A27EEEEEA00B3C550 /* CameraViewController.swift */; };
+		A1C8C5F427F18ADB002F9488 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C8C5F327F18ADB002F9488 /* PostCell.swift */; };
+		A2E3533DB1737766B535D84C /* Pods_IGRayven_IGRayvenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0276A48E3D911A17FBDCF022 /* Pods_IGRayven_IGRayvenUITests.framework */; };
+		A6F0C4F4725B2DAEEE96FEFB /* Pods_IGRayven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B51C95FAFC819166EBE465 /* Pods_IGRayven.framework */; };
+		C95C5ADBF48D267BFE7D0927 /* Pods_IGRayvenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303F9FD2139106CC1B0721A1 /* Pods_IGRayvenTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0276A48E3D911A17FBDCF022 /* Pods_IGRayven_IGRayvenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGRayven_IGRayvenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		135CDA45DD87CCB62FA3D660 /* Pods-IGRayven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayven.debug.xcconfig"; path = "Target Support Files/Pods-IGRayven/Pods-IGRayven.debug.xcconfig"; sourceTree = "<group>"; };
+		303F9FD2139106CC1B0721A1 /* Pods_IGRayvenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGRayvenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59962ECBC815FB6A84462323 /* Pods-IGRayven-IGRayvenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayven-IGRayvenUITests.debug.xcconfig"; path = "Target Support Files/Pods-IGRayven-IGRayvenUITests/Pods-IGRayven-IGRayvenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1A572F327EE7B2A00B3C550 /* IGRayven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGRayven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A572F627EE7B2A00B3C550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A572F827EE7B2A00B3C550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1A572FA27EE7B2A00B3C550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1A572FD27EE7B2A00B3C550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1A572FF27EE7B2C00B3C550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A5730227EE7B2C00B3C550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		A1A5731327EE7B2C00B3C550 /* IGRayvenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGRayvenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A5731727EE7B2C00B3C550 /* IGRayvenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGRayvenUITests.swift; sourceTree = "<group>"; };
 		A1A5731927EE7B2C00B3C550 /* IGRayvenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGRayvenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A5732627EE7C6300B3C550 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1A5732827EE7C6F00B3C550 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A1A5732A27EEEEEA00B3C550 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A1C8C5F327F18ADB002F9488 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A3B51C95FAFC819166EBE465 /* Pods_IGRayven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGRayven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2DD60C6AFD1AD1A5294EE5 /* Pods-IGRayvenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayvenTests.release.xcconfig"; path = "Target Support Files/Pods-IGRayvenTests/Pods-IGRayvenTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF730A036502CED736B31291 /* Pods-IGRayvenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayvenTests.debug.xcconfig"; path = "Target Support Files/Pods-IGRayvenTests/Pods-IGRayvenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC90361E6569E6F2FB194DB /* Pods-IGRayven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayven.release.xcconfig"; path = "Target Support Files/Pods-IGRayven/Pods-IGRayven.release.xcconfig"; sourceTree = "<group>"; };
+		FB6573D075447CF50CD5C5B4 /* Pods-IGRayven-IGRayvenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGRayven-IGRayvenUITests.release.xcconfig"; path = "Target Support Files/Pods-IGRayven-IGRayvenUITests/Pods-IGRayven-IGRayvenUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F0C4F4725B2DAEEE96FEFB /* Pods_IGRayven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95C5ADBF48D267BFE7D0927 /* Pods_IGRayvenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E3533DB1737766B535D84C /* Pods_IGRayven_IGRayvenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		716F95DAC0322AD7A1FC5966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B51C95FAFC819166EBE465 /* Pods_IGRayven.framework */,
+				0276A48E3D911A17FBDCF022 /* Pods_IGRayven_IGRayvenUITests.framework */,
+				303F9FD2139106CC1B0721A1 /* Pods_IGRayvenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1A572EA27EE7B2A00B3C550 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				A1A5730C27EE7B2C00B3C550 /* IGRayvenTests */,
 				A1A5731627EE7B2C00B3C550 /* IGRayvenUITests */,
 				A1A572F427EE7B2A00B3C550 /* Products */,
+				CFEE832A66CE2C2AC161C5B3 /* Pods */,
+				716F95DAC0322AD7A1FC5966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +134,14 @@
 			children = (
 				A1A572F627EE7B2A00B3C550 /* AppDelegate.swift */,
 				A1A572F827EE7B2A00B3C550 /* SceneDelegate.swift */,
-				A1A572FA27EE7B2A00B3C550 /* ViewController.swift */,
 				A1A572FC27EE7B2A00B3C550 /* Main.storyboard */,
+				A1C8C5F327F18ADB002F9488 /* PostCell.swift */,
+				A1A5732627EE7C6300B3C550 /* LoginViewController.swift */,
+				A1A5732827EE7C6F00B3C550 /* FeedViewController.swift */,
 				A1A572FF27EE7B2C00B3C550 /* Assets.xcassets */,
 				A1A5730127EE7B2C00B3C550 /* LaunchScreen.storyboard */,
 				A1A5730427EE7B2C00B3C550 /* Info.plist */,
+				A1A5732A27EEEEEA00B3C550 /* CameraViewController.swift */,
 			);
 			path = IGRayven;
 			sourceTree = "<group>";
@@ -127,6 +163,19 @@
 			path = IGRayvenUITests;
 			sourceTree = "<group>";
 		};
+		CFEE832A66CE2C2AC161C5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				135CDA45DD87CCB62FA3D660 /* Pods-IGRayven.debug.xcconfig */,
+				EDC90361E6569E6F2FB194DB /* Pods-IGRayven.release.xcconfig */,
+				59962ECBC815FB6A84462323 /* Pods-IGRayven-IGRayvenUITests.debug.xcconfig */,
+				FB6573D075447CF50CD5C5B4 /* Pods-IGRayven-IGRayvenUITests.release.xcconfig */,
+				DF730A036502CED736B31291 /* Pods-IGRayvenTests.debug.xcconfig */,
+				AF2DD60C6AFD1AD1A5294EE5 /* Pods-IGRayvenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A5731D27EE7B2C00B3C550 /* Build configuration list for PBXNativeTarget "IGRayven" */;
 			buildPhases = (
+				54A16B4184B3DEECF8EC1D90 /* [CP] Check Pods Manifest.lock */,
 				A1A572EF27EE7B2A00B3C550 /* Sources */,
 				A1A572F027EE7B2A00B3C550 /* Frameworks */,
 				A1A572F127EE7B2A00B3C550 /* Resources */,
+				82D7C334153A75775487DBE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A5732027EE7B2C00B3C550 /* Build configuration list for PBXNativeTarget "IGRayvenTests" */;
 			buildPhases = (
+				90FBF7C2B0B3A4C338E8AF2C /* [CP] Check Pods Manifest.lock */,
 				A1A5730527EE7B2C00B3C550 /* Sources */,
 				A1A5730627EE7B2C00B3C550 /* Frameworks */,
 				A1A5730727EE7B2C00B3C550 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A5732327EE7B2C00B3C550 /* Build configuration list for PBXNativeTarget "IGRayvenUITests" */;
 			buildPhases = (
+				DEC197B76D399A9B11DBF34E /* [CP] Check Pods Manifest.lock */,
 				A1A5730F27EE7B2C00B3C550 /* Sources */,
 				A1A5731027EE7B2C00B3C550 /* Frameworks */,
 				A1A5731127EE7B2C00B3C550 /* Resources */,
+				DC9C57225313D85189E5CED3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54A16B4184B3DEECF8EC1D90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGRayven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D7C334153A75775487DBE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGRayven/Pods-IGRayven-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGRayven/Pods-IGRayven-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGRayven/Pods-IGRayven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FBF7C2B0B3A4C338E8AF2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGRayvenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9C57225313D85189E5CED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGRayven-IGRayvenUITests/Pods-IGRayven-IGRayvenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGRayven-IGRayvenUITests/Pods-IGRayven-IGRayvenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGRayven-IGRayvenUITests/Pods-IGRayven-IGRayvenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC197B76D399A9B11DBF34E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGRayven-IGRayvenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1A572EF27EE7B2A00B3C550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A572FB27EE7B2A00B3C550 /* ViewController.swift in Sources */,
+				A1A5732727EE7C6300B3C550 /* LoginViewController.swift in Sources */,
+				A1A5732B27EEEEEA00B3C550 /* CameraViewController.swift in Sources */,
 				A1A572F727EE7B2A00B3C550 /* AppDelegate.swift in Sources */,
+				A1A5732927EE7C6F00B3C550 /* FeedViewController.swift in Sources */,
 				A1A572F927EE7B2A00B3C550 /* SceneDelegate.swift in Sources */,
+				A1C8C5F427F18ADB002F9488 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +594,7 @@
 		};
 		A1A5731E27EE7B2C00B3C550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135CDA45DD87CCB62FA3D660 /* Pods-IGRayven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +622,7 @@
 		};
 		A1A5731F27EE7B2C00B3C550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC90361E6569E6F2FB194DB /* Pods-IGRayven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +650,7 @@
 		};
 		A1A5732127EE7B2C00B3C550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF730A036502CED736B31291 /* Pods-IGRayvenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +670,7 @@
 		};
 		A1A5732227EE7B2C00B3C550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2DD60C6AFD1AD1A5294EE5 /* Pods-IGRayvenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +690,7 @@
 		};
 		A1A5732427EE7B2C00B3C550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59962ECBC815FB6A84462323 /* Pods-IGRayven-IGRayvenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +708,7 @@
 		};
 		A1A5732527EE7B2C00B3C550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6573D075447CF50CD5C5B4 /* Pods-IGRayven-IGRayvenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
